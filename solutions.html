@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lizzy & Dugs</title>
+    <!-- icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body>
+    <header class="main-header-signup">
+        <nav class="transparent">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="" class="brand-logo ">Lizzy&Dugs</a>
+                    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="index.html">Solutions</a>
+                        </li>
+                        <li>
+                            <a href="index.html">Signup</a>
+                        </li>
+                        <li><a href="" class="btn">Log in</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- showcase -->
+    <div class="showcase container">
+        <div class="row">
+            <div class="col s12 m10 offset-m2 center">
+                <h5>Welcome to Our Site</h5>
+                <h1>Cloud Solutions</h1>
+              
+            </div>
+            
+        </div>
+    </div>
+    </header>
+
+
+
+
+    <!-- sidenav -->
+    <ul id="slide-out" class="sidenav">
+        <li>
+            <a href="index.html" class="active">Home</a>
+        </li>
+        <li>
+            <a href="index.html">Solutions</a>
+        </li>
+        <li>
+            <a href="index.html">Signup</a>
+        </li>
+        <li><a href="#login" class="btn modal-trigger cyan darken-4">Log in</a>
+        </li>
+    </ul>
+
+   <!-- section: solutions about -->
+   <section class="section section-solutions-about">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m5">
+                <h2>What we do...</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, id quidem similique corporis iusto quam ex dolorem magnam maiores, optio quae harum minima enim. Est quam magni aliquid vitae dignissimos?</p>
+            </div>
+        </div>
+    </div>
+   </section>
+    
+    
+
+<!-- footer -->
+<footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Footer Content</h5>
+          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright" style="background-color:#002233;">
+      <div class="container">
+      © 2014 Copyright Text
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+     <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      
+    <script>
+    $(document).ready(function(){
+        // sidenav
+        $('.sidenav').sidenav({
+            edge: 'right'
+        });
+         
+        
+        //  materialboxed
+        $('.materialboxed').materialbox();
+
+        // carousel-slider
+        $('.carousel.carousel-slider').carousel({
+            fullWidth: true
+         });
+        //  modal init
+        $('.modal').modal();
+  
+        // select
+        $('select').formSelect();
+       
+      
+    });
+    </script>
+</body>
+</html>

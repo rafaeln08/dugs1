@@ -33,3 +33,23 @@
     width: 100%;
 }
 
+.section-podcast {
+    position: relative;
+    background: url(images/img4.jpg);
+    background-position: center;
+    min-height: 250px;
+}
+
+.main-header-signup {
+    background: url(images/img2.jpg);
+    background-position: left;
+    background-size:;
+    min-height: 500px;
+    color: white;
+}
+
+.btn-extend {
+    display: block;
+    width: 100%;
+}
+
