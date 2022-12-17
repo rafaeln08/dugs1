@@ -1,0 +1,35 @@
+.main-header {
+    background: url(images/img2.jpg);
+    background-position: left;
+    background-size:;
+    min-height: 500px;
+    color: white;
+}
+
+.showcase {
+    padding: 100px;
+}
+.page-footer {
+    background: url(images/img2.jpg);
+    background-position: bottom;
+
+}
+
+.section-developers {
+    position: relative;
+    background: url(images/img3.avif);
+    background-position: center;
+    min-height: 250px;
+}
+
+.primary-overlay {
+    background: rgba(246,135,71,.28);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
